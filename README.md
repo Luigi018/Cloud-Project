@@ -39,3 +39,5 @@ To test it on your project, modify the service account in the JSON file, along w
 
 For more details, please read Relazione.pdf or translate it if you're not italian.
 
+Credentials have been removed for security reasons. Please request the correct credentials from the owner to ensure proper functionality.
+

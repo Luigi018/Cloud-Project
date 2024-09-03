@@ -17,7 +17,7 @@ subscriber = pubsub_v1.SubscriberClient()
 subscription_path = subscriber.subscription_path(project_id, subscription_id)
 
 cloud_id = "My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQ5OGNjNTRiMzIwODI0NGJmYjI4OGUzYjBkYzU2NzNhMiRhOGVhYWU5NDVhNzg0NzY2YjQxZDUzMjQzYmY0NDk5Mg=="
-api_key = "aFg4ZG41RUJUVXM1VEVybmJUNVI6V1hScFVWUm1ScVNzMy1IZTBjajVxQQ=="
+api_key = ""
 
 es = Elasticsearch(
     cloud_id=cloud_id,
