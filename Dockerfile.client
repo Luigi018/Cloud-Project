@@ -1,0 +1,11 @@
+FROM --platform=linux/amd64 python:3.8-slim-buster as build
+
+COPY client.py /app/
+COPY cloud-project-433315-ab9bd94595a6.json /app/
+
+WORKDIR /app
+
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+CMD ["python", "client.py"]
