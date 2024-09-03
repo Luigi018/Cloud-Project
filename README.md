@@ -36,3 +36,6 @@ Then, start the server and client with the following commands:
     python3 client.py
 
 To test it on your project, modify the service account in the JSON file, along with the project_id, subscription_id, cloud_id, and api_key (for Elasticsearch) in the server configuration. In the client configuration, only change the project_id and topic_id.
+
+For more details, please read Relazione.pdf or translate it if you're not italian.
+
