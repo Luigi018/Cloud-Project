@@ -26,6 +26,14 @@ The command configures kubectl to use the credentials for the "sensor-cluster" i
     --zone us-central1-a \
     --project cloud-project-433315
 
+To run all the above scripts, you can use the following command:
+
+    ./start.sh
+
+To delete the deployments and stop the cluster, you can use:
+
+    ./end.sh
+
 To run the code locally, first install the required dependencies by executing:
 
     pip install -r requirements.txt
